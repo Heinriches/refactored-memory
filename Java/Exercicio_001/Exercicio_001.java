@@ -6,12 +6,6 @@ class Exercicio_001
 		System.out.println("Olá, Mundo!");
 		
 		
-	}
-	
-	
-	
-	
-	
-	
+	}	
 	
 }
