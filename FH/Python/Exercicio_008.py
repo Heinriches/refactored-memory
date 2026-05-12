@@ -1,8 +1,8 @@
 from decimal import Decimal
 
-distancia = Decimal(input("Digite uma distância, em metros: "))
+dist = Decimal(input("Digite uma distância, em metros: "))
 
-print(f"A distância de {distancia}m corresponde a :")
-print(f"{(distancia / 1000):.2f} km.")
-print(f"{(distancia * 100):.2f} cm.")
-print(f"{(distancia * 1000):.2f} mm.")
+print(f" A distância de {dist}m corresponde a: \n")
+print(f"{(dist / 1000):>15,.3f} Km.")
+print(f"{(dist * 100):>15,.2f} cm.")
+print(f"{(dist * 1000):>15,.2f} mm.")
