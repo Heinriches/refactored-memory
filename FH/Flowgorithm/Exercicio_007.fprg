@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exercicio_007"/>
+        <attribute name="authors" value="steamuser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 11:53:17 AM"/>
+        <attribute name="created" value="c3RlYW11c2VyO0E1MTUtNDU7MjAyNi0wNS0xMjsxMTo0OTo0NyBBTTsyNjI4"/>
+        <attribute name="edited" value="c3RlYW11c2VyO0E1MTUtNDU7MjAyNi0wNS0xMjsxMTo1MzoxNyBBTTsxOzI3Mjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="num"/>
+            <output expression="&quot;O dobro de &quot; &amp;num &amp;&quot; &#233; igual a &quot; &amp;(num * 2) &amp;&quot;.&quot;" newline="True"/>
+            <output expression="&quot;A ter&#231;a parte de &quot; &amp;num &amp;&quot; &#233; igual a &quot; &amp;(num /3) &amp;&quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
