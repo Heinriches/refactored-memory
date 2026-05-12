@@ -9,10 +9,10 @@ class Exercicio_008
 		System.out.print("Digite uma distância, em metros: ");
 		double dist = sc.nextDouble();
 		
-		System.out.printf("A distância de %d m corresponde a: \n");
-		System.out.println((dist / 1000) +"Km.");
-		System.out.println((dist * 100) +"cm.");
-		System.out.println((dist * 1000) +"mm.");
+		System.out.printf("A distância de %f m corresponde a: \n");
+		System.out.printf("%,.2f Km. \n" ,(dist / 1000));
+		System.out.printf("%,.2f cm. \n" ,(dist * 100));
+		System.out.printf("%,.2f mm. \n" ,(dist * 1000));
 		
 		
 		sc.close();
