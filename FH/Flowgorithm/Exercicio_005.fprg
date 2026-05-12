@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exercicio_005"/>
+        <attribute name="authors" value="steamuser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 11:35:45 AM"/>
+        <attribute name="created" value="c3RlYW11c2VyO0E1MTUtNDU7MjAyNi0wNS0xMjsxMToyNzo1NyBBTTsyNjI1"/>
+        <attribute name="edited" value="c3RlYW11c2VyO0E1MTUtNDU7MjAyNi0wNS0xMjsxMTozNTo0NSBBTTsxOzI3Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1" type="Real" array="False" size=""/>
+            <declare name="nota2" type="Real" array="False" size=""/>
+            <output expression="&quot;Nota 1: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Nota 2: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;A m&#233;dia entre &quot; &amp;nota1 &amp;&quot; e &quot; &amp;nota2 &amp;&quot; &#233; igual a &quot; &amp;((nota1 + nota2)/2) &amp;&quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
