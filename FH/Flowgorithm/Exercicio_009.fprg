@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exercicio_009"/>
+        <attribute name="authors" value="steamuser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-27 08:48:10 PM"/>
+        <attribute name="created" value="c3RlYW11c2VyO1gyNTA7MjAyNi0wNS0yNzswODozNDo1NiBQTTsyNTE4"/>
+        <attribute name="edited" value="c3RlYW11c2VyO1gyNTA7MjAyNi0wNS0yNzswODo0ODoxMCBQTTsxOzI2MjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="carteira" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite qual o valor dispon&#237;vel em carteira, para convers&#227;o: &quot;" newline="True"/>
+            <input variable="carteira"/>
+            <output expression="&quot;Com este dinheiro, pode-se comprar &quot; &amp;ToFixed((carteira / 3.45), 2) &amp;&quot; d&#243;lares.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
