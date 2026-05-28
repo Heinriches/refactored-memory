@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exercicio_011"/>
+        <attribute name="authors" value="steamuser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-27 09:38:05 PM"/>
+        <attribute name="created" value="c3RlYW11c2VyO1gyNTA7MjAyNi0wNS0yNzswOTozMDozOCBQTTsyNTE1"/>
+        <attribute name="edited" value="c3RlYW11c2VyO1gyNTA7MjAyNi0wNS0yNzswOTozODowNSBQTTsxOzI2MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor do coeficiente 'a'.&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite o valor do coeficiente 'b'.&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Digite o valor do coeficiente 'c'.&quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;DELTA = &quot; &amp;ToFixed(((b * b) - (4 * a * c)), 2) &amp;&quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
